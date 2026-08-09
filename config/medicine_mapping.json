@@ -1,0 +1,20 @@
+{
+  "mappings": {
+    "AZITHRAL": "azithromycin",
+    "PAN": "pantoprazole",
+    "PAN D": "pantoprazole + domperidone",
+    "DOLO": "paracetamol",
+    "DOLO 650": "paracetamol",
+    "ULTRACET": "tramadol + paracetamol",
+    "CEFTAS": "cefixime",
+    "ZINCOVIT": "multivitamin/mineral supplement",
+    "EMESET": "ondansetron",
+    "DYNAPAR": "diclofenac",
+    "FORTWIN": "pentazocine",
+    "PHENARGAN": "promethazine",
+    "DROTIN": "drotaverine",
+    "VIZYLAC": "probiotic",
+    "DUPHALAC": "lactulose",
+    "NATUROLAX": "ispaghula husk"
+  }
+}

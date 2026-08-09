@@ -1,0 +1,182 @@
+{
+  "canonical_tests": {
+    "HAEMOGLOBIN": [
+      "HAEMOGLOBIN",
+      "Haemoglobin",
+      "Hb",
+      "haemoglobin",
+      "HGB",
+      "Hgb"
+    ],
+    "WHITE BLOOD CELL COUNT": [
+      "TOTAL WBC COUNT",
+      "Total WBC Count",
+      "WBC COUNT",
+      "TOTAL LEUCOCYTE COUNT (TLC)",
+      "Total Leucocyte Count (TLC)"
+    ],
+    "Serum Creatinine": [
+      "CREATININE, SERUM",
+      "SERUM CREATININE",
+      "Serum Creatinine",
+      "CREATININE",
+      "Creatinine"
+    ],
+    "SODIUM": [
+      "Na+",
+      "SODIUM",
+      "Sodium",
+      "Sodium (Na+)"
+    ],
+    "POTASSIUM": [
+      "K+",
+      "POTASSIUM",
+      "Potassium",
+      "Potassium (K+)"
+    ],
+    "Red Blood Cell Count (RBC)": [
+      "RBC",
+      "RBC COUNT",
+      "Red Blood Cell Count",
+      "Red Blood Cell Count (whole blood/ impedenco method)"
+    ],
+    "Platelet Count": [
+      "PLATELET COUNT",
+      "Platelet Count"
+    ],
+    "ALBUMIN": [
+      "ALBUMIN",
+      "ALBUMIN, SERUM",
+      "Albumin"
+    ],
+    "HEMATOCRIT": [
+      "HAEMATOCRIT",
+      "Haematocrit (PCV)",
+      "PCV",
+      "Packed Cell Volume (PCV)",
+      "Packed Cell Volume (PCV) (whole blood/ impedenco method)"
+    ],
+    "Procalcitonin": [
+      "PROCALCITONIN",
+      "PROCALCITONIN (PCT)"
+    ],
+    "CREATININE": [
+      "CREATININE",
+      "Creatinine"
+    ],
+    "C-REACTIVE PROTEIN": [
+      "C-REACTIVE PROTEIN (CRP)",
+      "CRP",
+      "CRP-QUANTITATIVE"
+    ],
+    "ALANINE AMINOTRANSFERASE": [
+      "ALANINE AMINOTRANSFERASE",
+      "ALT (SGPT)",
+      "ALANINE AMINOTRANSFERASE(ALT/SGPT)",
+      "ALANINE AMINOTRANSFERASE (ALT/SGPT)"
+    ],
+    "ASPARTATE AMINOTRANSFERASE": [
+      "ASPARTATE AMINOTRANSFERASE",
+      "AST (SGOT)",
+      "ASPARTATE AMINOTRANSFERASE(AST/SGOT)",
+      "ASPARTATE TRANSAMINASE (SGOT, HAST)"
+    ],
+    "URIC ACID": [
+      "URIC ACID",
+      "URIC ACID, SERUM"
+    ],
+    "CALCIUM": [
+      "CALCIUM",
+      "Ca2+ (Calcium)"
+    ],
+    "Estimated Glomerular Filtration Rate (eGFR)": [
+      "FILTRATION RATE",
+      "eGFR - ESTIMATED GLOMERULAR FILTRATION RATE",
+      "eGFR - ESTIMATED GLOMERULAR"
+    ],
+    "Urea Nitrogen (BUN)": [
+      "BLOOD UREA NITROGEN",
+      "UREA",
+      "Blood Urea"
+    ],
+    "MCV": [
+      "MCV",
+      "Mean Cell Volume (MCV)",
+      "Mean Cell Volume (MCV) (whole blood/calculalod)"
+    ],
+    "MCH": [
+      "MCH"
+    ],
+    "MCHC": [
+      "MCHC"
+    ],
+    "RDW-CV": [
+      "RDW - CV",
+      "R.D.W"
+    ],
+    "RDW-SD": [
+      "RDW - SD"
+    ],
+    "NEUTROPHILS": [
+      "NEUTROPHILS",
+      "Neutrophil"
+    ],
+    "LYMPHOCYTES": [
+      "LYMPHOCYTES",
+      "Lymphocyte"
+    ],
+    "EOSINOPHILS": [
+      "EOSINOPHILS",
+      "Eosinophils"
+    ],
+    "MONOCYTES": [
+      "MONOCYTES",
+      "Monocytes"
+    ],
+    "BASOPHILS": [
+      "BASOPHILS",
+      "Basophils"
+    ],
+    "ALKALINE PHOSPHATASE": [
+      "ALKALINE PHOSPHATASE",
+      "Alkaline Phosphatase (ALP)",
+      "ALKALINE PHOSPHATASE (ALP)"
+    ],
+    "TOTAL PROTEIN": [
+      "Total protein",
+      "Total Protein",
+      "PROTEIN,TOTAL",
+      "PROTEIN, TOTAL",
+      "PROTEIN, TOTAL"
+    ],
+    "GLOBULIN": [
+      "GLOBULIN",
+      "Globulin (Calculated)",
+      "GLOBULIN"
+    ],
+    "A/G RATIO": [
+      "Albumin/Globulin Ratio (Calculated)",
+      "A/G RATIO",
+      "Albumin/Globulin Ratio"
+    ],
+    "CHLORIDE": [
+      "CHLORIDE",
+      "Chloride (CI-)"
+    ],
+    "SERUM CALCIUM": [
+      "Serum Calcium"
+    ],
+    "PHOSPHORUS": [
+      "Phosphorus Serum",
+      "PHOSPHORUS, INORGANIC"
+    ],
+    "BILIRUBIN TOTAL": [
+      "Serum Bilirubin (Total, Direct & Indirect)"
+    ],
+    "UREA": [
+      "Blood Urea",
+      "UREA"
+    ]
+  },
+  "fuzzy_threshold": 0.78
+}

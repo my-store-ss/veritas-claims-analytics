@@ -1,0 +1,66 @@
+{
+  "cell/cu.mm": {
+    "canonical": "cells/cu.mm",
+    "factor": 1
+  },
+  "cells/cu.mm": {
+    "canonical": "cells/cu.mm",
+    "factor": 1
+  },
+  "cells/cu.cm": {
+    "canonical": "cells/cu.mm",
+    "factor": 0.001
+  },
+  "million/cu.mm": {
+    "canonical": "million/cu.mm",
+    "factor": 1
+  },
+  "mil/cu.mm": {
+    "canonical": "million/cu.mm",
+    "factor": 1
+  },
+  "mil/cu.cm": {
+    "canonical": "million/cu.mm",
+    "factor": 0.001
+  },
+  "g/dl": {
+    "canonical": "g/dL",
+    "factor": 1
+  },
+  "gm/dL": {
+    "canonical": "g/dL",
+    "factor": 1
+  },
+  "gm/dl": {
+    "canonical": "g/dL",
+    "factor": 1
+  },
+  "mg/dl": {
+    "canonical": "mg/dL",
+    "factor": 1
+  },
+  "mg/l": {
+    "canonical": "mg/L",
+    "factor": 1
+  },
+  "mmol/l": {
+    "canonical": "mmol/L",
+    "factor": 1
+  },
+  "u/l": {
+    "canonical": "U/L",
+    "factor": 1
+  },
+  "fl": {
+    "canonical": "fL",
+    "factor": 1
+  },
+  "pg": {
+    "canonical": "pg",
+    "factor": 1
+  },
+  "%": {
+    "canonical": "%",
+    "factor": 1
+  }
+}

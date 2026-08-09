@@ -1,0 +1,108 @@
+{
+  "reference_ranges": {
+    "HAEMOGLOBIN": {
+      "low": 13.0,
+      "high": 17.0,
+      "unit": "g/dL"
+    },
+    "WHITE BLOOD CELL COUNT": {
+      "low": 4000,
+      "high": 10000,
+      "unit": "cells/cu.mm"
+    },
+    "Platelet Count": {
+      "low": 150000,
+      "high": 410000,
+      "unit": "cells/cu.mm"
+    },
+    "SODIUM": {
+      "low": 135,
+      "high": 145,
+      "unit": "mmol/L"
+    },
+    "POTASSIUM": {
+      "low": 3.5,
+      "high": 5.0,
+      "unit": "mmol/L"
+    },
+    "ALANINE AMINOTRANSFERASE": {
+      "low": null,
+      "high": 50,
+      "unit": "U/L"
+    },
+    "ASPARTATE AMINOTRANSFERASE": {
+      "low": 17,
+      "high": 59,
+      "unit": "U/L"
+    },
+    "ALKALINE PHOSPHATASE": {
+      "low": 38,
+      "high": 126,
+      "unit": "U/L"
+    },
+    "ALBUMIN": {
+      "low": 3.5,
+      "high": 5.0,
+      "unit": "g/dL"
+    },
+    "UREA": {
+      "low": 19,
+      "high": 43,
+      "unit": "mg/dL"
+    },
+    "Urea Nitrogen (BUN)": {
+      "low": 8,
+      "high": 23,
+      "unit": "mg/dL"
+    },
+    "CHLORIDE": {
+      "low": 98,
+      "high": 107,
+      "unit": "mmol/L"
+    },
+    "MCV": {
+      "low": 83,
+      "high": 101,
+      "unit": "fL"
+    },
+    "MCH": {
+      "low": 27,
+      "high": 32,
+      "unit": "pg"
+    },
+    "MCHC": {
+      "low": 31.5,
+      "high": 34.5,
+      "unit": "g/dL"
+    },
+    "RDW-CV": {
+      "low": 11.6,
+      "high": 14.0,
+      "unit": "%"
+    },
+    "RDW-SD": {
+      "low": 37,
+      "high": 54,
+      "unit": "fL"
+    },
+    "NEUTROPHILS": {
+      "low": 2000,
+      "high": 7000,
+      "unit": "cells/cu.mm"
+    },
+    "LYMPHOCYTES": {
+      "low": 20,
+      "high": 40,
+      "unit": "%"
+    },
+    "CALCIUM": {
+      "low": null,
+      "high": null,
+      "unit": ""
+    }
+  },
+  "outlier_rules": {
+    "low_factor": 0.1,
+    "high_factor": 10
+  }
+}

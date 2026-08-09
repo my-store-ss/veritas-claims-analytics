@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760">
+<style>
+.box{fill:#f7f9fc;stroke:#2f5d8a;stroke-width:2;rx:14;ry:14}
+.title{font:700 22px Arial;fill:#17324d}.text{font:16px Arial;fill:#243746}.small{font:14px Arial;fill:#425466}
+.arrow{stroke:#425466;stroke-width:3;fill:none;marker-end:url(#m)}
+.badge{fill:#e9f2fb;stroke:#2f5d8a;stroke-width:1}
+</style>
+<defs><marker id="m" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#425466"/></marker></defs>
+<text x="700" y="38" text-anchor="middle" class="title">Veritas Claims Analytics — Prototype Architecture</text>
+
+<rect x="40" y="100" width="220" height="120" class="box"/>
+<text x="150" y="135" text-anchor="middle" class="title">Clinics</text>
+<text x="150" y="165" text-anchor="middle" class="text">JSON medical reports</text>
+<text x="150" y="192" text-anchor="middle" class="small">500+ sources / variants</text>
+
+<rect x="330" y="100" width="220" height="120" class="box"/>
+<text x="440" y="135" text-anchor="middle" class="title">GCS Landing</text>
+<text x="440" y="165" text-anchor="middle" class="text">clinic_id / date</text>
+<text x="440" y="192" text-anchor="middle" class="small">event or scheduled batch</text>
+
+<rect x="620" y="100" width="220" height="120" class="box"/>
+<text x="730" y="135" text-anchor="middle" class="title">Ingestion</text>
+<text x="730" y="165" text-anchor="middle" class="text">parse + basic validation</text>
+<text x="730" y="192" text-anchor="middle" class="small">hash / trace / errors</text>
+
+<rect x="910" y="100" width="300" height="120" class="box"/>
+<text x="1060" y="135" text-anchor="middle" class="title">Standardisation Worker Pool</text>
+<text x="1060" y="165" text-anchor="middle" class="text">names • numbers • units</text>
+<text x="1060" y="192" text-anchor="middle" class="small">demographics • medicines</text>
+
+<path d="M260 160 H330" class="arrow"/><path d="M550 160 H620" class="arrow"/><path d="M840 160 H910" class="arrow"/>
+
+<rect x="910" y="300" width="300" height="120" class="box"/>
+<text x="1060" y="335" text-anchor="middle" class="title">Validation & Analytics</text>
+<text x="1060" y="365" text-anchor="middle" class="text">range / outlier / invalid</text>
+<text x="1060" y="392" text-anchor="middle" class="small">Within / Above / Below / Outlier / Invalid</text>
+
+<path d="M1060 220 V300" class="arrow"/>
+
+<rect x="620" y="300" width="220" height="120" class="box"/>
+<text x="730" y="335" text-anchor="middle" class="title">Config Layer</text>
+<text x="730" y="365" text-anchor="middle" class="text">JSON dictionaries</text>
+<text x="730" y="392" text-anchor="middle" class="small">clinic/test/unit/range/medicine</text>
+<path d="M840 360 H910" class="arrow"/>
+
+<rect x="330" y="510" width="250" height="120" class="box"/>
+<text x="455" y="545" text-anchor="middle" class="title">Canonical DB</text>
+<text x="455" y="575" text-anchor="middle" class="text">SQLite prototype</text>
+<text x="455" y="602" text-anchor="middle" class="small">BigQuery/PostgreSQL in production</text>
+
+<rect x="650" y="510" width="250" height="120" class="box"/>
+<text x="775" y="545" text-anchor="middle" class="title">Raw + DLQ</text>
+<text x="775" y="575" text-anchor="middle" class="text">audit / failed files</text>
+<text x="775" y="602" text-anchor="middle" class="small">reprocess without blocking others</text>
+
+<rect x="970" y="510" width="250" height="120" class="box"/>
+<text x="1095" y="545" text-anchor="middle" class="title">Streamlit UI</text>
+<text x="1095" y="575" text-anchor="middle" class="text">runs • flags • clinic stats</text>
+<text x="1095" y="602" text-anchor="middle" class="small">record inspector</text>
+
+<path d="M1060 420 C1060 465 455 465 455 510" class="arrow"/>
+<path d="M1060 420 C1060 465 775 465 775 510" class="arrow"/>
+<path d="M455 630 V680 H1095 V630" class="arrow"/>
+
+<rect x="40" y="510" width="220" height="120" class="box"/>
+<text x="150" y="545" text-anchor="middle" class="title">DLQ / Alerts</text>
+<text x="150" y="575" text-anchor="middle" class="text">malformed / failed</text>
+<text x="150" y="602" text-anchor="middle" class="small">error-rate & lag alerts</text>
+<path d="M730 300 C500 300 500 570 260 570" class="arrow"/>
+</svg>
